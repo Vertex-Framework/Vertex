@@ -16,14 +16,7 @@ Type
     levelDebug=4
   );
 
-  TLoggerException = reference to procedure(e : Exception);
-
   ILogger = interface['{6A6F7449-3BA2-4DD2-AFA5-26222B4F79CE}']
-    procedure ProcessStart(Const processID : String  = ''; level : TLoggerLevel = levelinfo);
-    procedure ProcessFinish(level : TLoggerLevel = levelinfo);
-
-    Procedure ProcessPause();
-    Procedure ProcessContinue();
 
     procedure Fatal(Const msg : String);
     procedure Error(Const msg : String);
