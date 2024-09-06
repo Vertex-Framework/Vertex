@@ -1,8 +1,8 @@
 {
 	"name": "Vertex",
 	"description": "",
-	"version": "1.0.0",
-	"homepage": "",
+	"version": "0.0.1-alfa",
+	"homepage": "https://github.com/Vertex-Framework/Vertex",
 	"mainsrc": "./src",
 	"browsingpath": "",
 	"projects": [
@@ -11,4 +11,4 @@
 	"dependencies": {
 		"https://github.com/andriwsluna/Spring4D": "^v1.0.1"
 	}
-}
+}+
