@@ -4,7 +4,9 @@ uses
   Vcl.Forms,
   umainform in 'umainform.pas' {Form1},
   Vertex.Interfaces in '..\..\src\Interfaces\Vertex.Interfaces.pas',
-  Vertex.Interfaces.Log in '..\..\src\Interfaces\Vertex.Interfaces\Vertex.Interfaces.Log.pas';
+  Vertex.Interfaces.Log in '..\..\src\Interfaces\Vertex.Interfaces\Vertex.Interfaces.Log.pas',
+  uInjecaoManual in 'uInjecaoManual.pas',
+  Vertex.Core.LoggerPro in '..\..\src\Core\Vertex.Core.LoggerPro.pas';
 
 {$R *.res}
 
