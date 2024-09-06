@@ -10,7 +10,7 @@ uses
 Type
   TVertexLoggerPro = class(TInterfacedObject, ILogger)
   private
-    LoggerProInstance : TLoggerPro;
+    //LoggerProInstance : TLoggerPro;
 
 
 

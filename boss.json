@@ -1,0 +1,14 @@
+{
+	"name": "Vertex",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./src",
+	"browsingpath": "",
+	"projects": [
+		"sandbox/vcl01/vcl01.dproj"
+	],
+	"dependencies": {
+		"https://github.com/andriwsluna/Spring4D": "^v1.0.1"
+	}
+}

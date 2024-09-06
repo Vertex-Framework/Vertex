@@ -1,6 +1,7 @@
 program vcl01;
 
 uses
+  Spring.Container,
   Vcl.Forms,
   umainform in 'umainform.pas' {Form1},
   Vertex.Interfaces in '..\..\src\Interfaces\Vertex.Interfaces.pas',
